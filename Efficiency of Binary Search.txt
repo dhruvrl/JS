@@ -1,0 +1,36 @@
+
+
+// Binary search //
+
+Looking effeciency in terms of time and how it is behaving in the worst case 
+
+When measuring efficiency we always look for worst case scenario
+
+Binary vs Linear search
+
+for n = 1000 , linear search time is 1000; for binary search it takes 10 operations
+
+for n = 10000, linear search time is 10000; for binary search it takes 14 operations only
+
+if we increase it again by 10 times binary search only takes 17 operations
+
+Order of growth will makes the picture clear.
+
+
+BIG O --------------------------here is the boss
+
+Theoretical  definition of the complexity of the algorithm as a function of the size.
+
+Notation used to describe complexity.
+
+O(n) --> O is order of magnitude of the complexity
+
+if a person take 4 tries to find a number in array of 10 , how long it will take to find a number in 10M
+
+(n) is the function of the size
+
+Big O is referred to uppper bound as well
+
+
+For linear search - time complexity is O(n)
+For Binary search - time complexity is O(log n)
